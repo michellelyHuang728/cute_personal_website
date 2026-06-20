@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michelle's World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="pixel-window">
+    <header class="topbar">
+      <div class="brand">♡ Michelle's World ✧</div>
+      <nav>
+        <a href="#eggs">Eggs</a>
+        <a href="#panel">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="eggs">
+        <div class="sparkles">✦ ✧ ✦ ✧ ✦</div>
+        <h2>Welcome to</h2>
+        <h1>Michelle's World</h1>
+        <p class="subtitle">Four eggs, four versions of me.</p>
+        <p class="hint">Click an egg to discover a different side of Michelle!</p>
+
+        <div class="intro-card">
+          <b>Nice to meet you!</b><br>
+          I'm Michelle aka AMU ♡<br>
+          I love coding, gaming,<br>
+          music, cooking and<br>
+          living a healthy life!
+        </div>
+
+        <div class="amu">♡</div>
+
+        <div class="egg-row">
+          <button class="egg-card active" data-type="diamond">
+            <span class="egg diamond"><i></i></span>
+            <span class="label diamond-label">◇ Diamond</span>
+            <b>The Dreamer</b>
+            <small>Career · Tech · Growth</small>
+          </button>
+          <button class="egg-card" data-type="heart">
+            <span class="egg heart"><i></i></span>
+            <span class="label heart-label">♥ Heart</span>
+            <b>The Competitor</b>
+            <small>Sports · Esports · Challenge</small>
+          </button>
+          <button class="egg-card" data-type="spade">
+            <span class="egg spade"><i></i></span>
+            <span class="label spade-label">♠ Spade</span>
+            <b>The Artist</b>
+            <small>Music · Art · Expression</small>
+          </button>
+          <button class="egg-card" data-type="clover">
+            <span class="egg clover"><i></i></span>
+            <span class="label clover-label">♣ Clover</span>
+            <b>The Nurturer</b>
+            <small>Cooking · Health · Lifestyle</small>
+          </button>
+        </div>
+      </section>
+
+      <section class="content-panel" id="panel">
+        <div class="window-title"><span id="panelIcon">◇</span> <span id="panelTitle">Diamond · The Dreamer</span><span class="controls">▢ ×</span></div>
+        <div class="panel-body">
+          <aside class="side-menu" id="sideMenu"></aside>
+          <div class="character" id="character"></div>
+          <div class="info" id="info"></div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <p>Every egg, a part of me. Every click, a new adventure! ✧</p>
+        <div class="links">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+          <a href="mailto:michelle@example.com">Email</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
